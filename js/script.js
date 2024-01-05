@@ -10,8 +10,10 @@ pergunta.forEach(pergunta => {
         
         if(!paragrafo.classList.contains('hide')) {
             icone.src = '../assets/images/icon-minus.svg'
+            icone.alt = 'icon minus sign'
         } else {
             icone.src = '../assets/images/icon-plus.svg'
+            icone.alt = 'icon plus sign'
         }
     })
 
