@@ -2,6 +2,8 @@
 
 ![Design preview for the FAQ accordion coding challenge](./design/desktop-preview.jpg)
 
+[See my version to this challenge](https://faq-project-puce.vercel.app/)
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
