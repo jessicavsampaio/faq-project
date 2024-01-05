@@ -8,7 +8,6 @@ body {
     display: flex;
     height: 100vh;
     justify-content: center;
-    align-items: center;
     font-family: 'Work Sans', sans-serif;
     background-color: hsl(275, 100%, 97%);
     background-image: url('./images/background-pattern-desktop.svg');
@@ -21,6 +20,8 @@ body {
     width: 40rem;
     padding: 40px;
     border-radius: 15px;
+    height: fit-content;
+    margin-top: 15%;
 }
 
 .title {
@@ -81,9 +82,10 @@ ul li:last-child {
     display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
     body {
         background-image: url('./images/background-pattern-mobile.svg');
+        align-items: normal;
     }
 
     .container {
